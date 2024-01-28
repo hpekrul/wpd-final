@@ -92,6 +92,7 @@ body .site-footer{
 }
 body .widget-area{
 	background-color: #f599af;
+	margin-bottom: -24px;
 }
 /*#secondary {*/
 /*	position: fixed;*/
@@ -129,6 +130,11 @@ body .reviewShortcode {
 .post-thumbnail img {
 	width: 332px;
 	height: 450px;
+}
+.container-column {
+	column-count: 2;
+	column-gap: 10px;
+	
 }
 
 /**
@@ -602,9 +608,8 @@ a:visited {
 	color: #000000;
 }
 
-a:hover,
-a:focus,
-a:active {
+a:hover
+ {
 	color: #E1DFB9;
 }
 
@@ -792,12 +797,25 @@ body .site-branding{
 .site-main
 .post-navigation {
 	margin: 0 0 1.5em;
+	font-size: 1.5em;
 }
 
 .comment-navigation .nav-links,
 .posts-navigation .nav-links,
 .post-navigation .nav-links {
 	display: flex;
+}
+
+/*I added this */
+body .nav-links a :hover{
+	color: #0A246A;
+
+}
+.nav-previous a :hover{
+	color: #0A246A;
+}
+.nav-next a :hover{
+	color: #0A246A;
 }
 
 .comment-navigation .nav-previous,
