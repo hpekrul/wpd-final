@@ -12,7 +12,7 @@
 ?>
 </div> <!-- closing row -->
 </div> <!-- closing container tag -->
-	<footer id="colophon" class="site-footer pt-5">
+	<footer id="colophon" class="site-footer pt-5 mt-4">
             <div class="row">
                 <div class="col">
                     <?php dynamic_sidebar('footer-1'); ?>

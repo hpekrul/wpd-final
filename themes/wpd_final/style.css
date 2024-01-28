@@ -88,7 +88,7 @@ body .entry-content p {
 	color: red;
 }
 body .site-footer{
-	background-color: #0A97CF;
+	background-color: #009ab0;
 }
 body .widget-area{
 	background-color: #f599af;
@@ -533,7 +533,7 @@ big {
 /* Elements
 --------------------------------------------- */
 body {
-	background: #E1DFB9;
+	background: #FFFFFF;
 }
 
 hr {
@@ -726,6 +726,7 @@ body .site-branding{
 	list-style: none;
 	margin: 0;
 	padding-left: 0;
+	text-align: center;
 }
 
 .main-navigation ul ul {
@@ -758,7 +759,7 @@ body .site-branding{
 }
 
 .main-navigation li {
-	position: relative;
+	display: inline-block;
 }
 
 .main-navigation a {

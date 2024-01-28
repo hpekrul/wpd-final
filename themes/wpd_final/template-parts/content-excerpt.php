@@ -33,13 +33,13 @@
 
 	<div class="entry-content">
 		<?php
-         echo  '<div><button class="more-info"><a href="' . get_the_permalink() . '">More Information</a></button></div>';
+         echo  '<div><button class="more-info mb-5"><a href="' . get_the_permalink() . '">More Information</a></button></div>';
 
 
 
 		wp_link_pages(
 			array(
-				'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'wpd_final' ),
+				'before' => '<div class="page-links m-3">' . esc_html__( 'Pages:', 'wpd_final' ),
 				'after'  => '</div>',
 			)
 		);
