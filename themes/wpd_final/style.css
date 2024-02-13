@@ -80,7 +80,12 @@ html {
 
 
 /*added my own */
-
+body .entry-title{
+	color: black;
+}
+body .page-header{
+	color: black; 
+}
 body .entry-content p {
 	font-size: 1.2em;
 }
@@ -91,8 +96,11 @@ body .site-footer{
 	background-color: #009ab0;
 }
 body .widget-area{
-	background-color: #f599af;
+	background-color: #000;
 	margin-bottom: -24px;
+}
+body .wp-block-search__label{
+	color: #fff;
 }
 /*#secondary {*/
 /*	position: fixed;*/
@@ -487,6 +495,9 @@ h6 {
 p {
 	margin-bottom: 1.5em;
 }
+body h2 {
+	color: #fff;
+}
 
 dfn,
 cite,
@@ -550,9 +561,9 @@ hr {
 }
 
 ul,
-ol {
-	margin: 0 0 1.5em 3em;
-}
+/*ol {*/
+/*	margin: 0 0 1.5em 3em;*/
+/*}*/
 
 ul {
 	list-style: disc;
@@ -610,7 +621,7 @@ a:visited {
 
 a:hover
  {
-	color: #E1DFB9;
+	color: #ffb400;
 }
 
 a:focus {
@@ -876,7 +887,12 @@ body .nav-links a :hover{
 .widget select {
 	max-width: 100%;
 }
-
+body .widget .widget_recent_entries a {
+	color: #fff
+}
+body .widgettitle{
+	color: #fff;
+}
 /* Media
 --------------------------------------------- */
 .page-content .wp-smiley,
@@ -1056,4 +1072,22 @@ body .nav-links a :hover{
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: 1.5em;
+}
+
+
+/*media queries*/
+@media (width >= 990px){
+	.container-column {
+		column-count: 2;
+		column-gap: 10px;
+
+	}
+
+}
+@media (width < 990px){
+	.container-column {
+		column-count: 1;
+
+	}
+
 }
